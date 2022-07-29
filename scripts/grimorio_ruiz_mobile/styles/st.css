@@ -165,21 +165,66 @@ nav a {
 	justify-content: flex-start;
 }
 
-.mza {
+.mza1 {
+	grid-column: 1/2;
 	width: auto;
-	height: auto;
-	border: 4px solid black;
-}
-
-.mzae {
-	grid-column: 1/3;
+	min-width: 400;
+	height: 300px;
 	margin: 10px;
 	border: 1px solid white;
+	background-image: url(../assets/darkness.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
 }
 
-.mzaa {
+.mza2 {
 	width: auto;
-	height: auto;
+	height: 300px;
+	margin: 10px;
+	border: 1px solid white;
+	background-image: url(../assets/hive.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.mza3 {
+	width: auto;
+	height: 300px;
+	margin: 10px;
+	border: 1px solid white;
+	background-image: url(../assets/cabal.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.mza4 {
+	width: auto;
+	height: 300px;
+	margin: 10px;
+	border: 1px solid white;
+	background-image: url(../assets/fallen.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.mza5 {
+	width: auto;
+	height: 300px;
+	margin: 10px;
+	border: 1px solid white;
+	background-image: url(../assets/forsaken.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+
+.mza6 {
+	width: auto;
+	height: 300px;
 	margin: 10px;
 	border: 1px solid white;
 	background-image: url(../assets/taken.jpg);
