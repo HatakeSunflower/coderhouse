@@ -130,13 +130,14 @@ nav:hover {
 }
 
 .seccion-amenazas p {
-	transition: 500ms;
 	font-size: 20px;
-	margin: 10px;
 	color: aliceblue;
 	text-shadow: 1px black;
-	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	opacity: 0;
+	transition: 500ms;
 }
 
 .seccion-amenazas p:hover {
@@ -230,73 +231,46 @@ nav:hover {
 }
 
 .seccion-vanguardia {
-	width: 100%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	padding-left: 10%;
-	padding-right: 10%;
-	display: flex;
 	background: black;
-	box-sizing: border-box;
-	flex-direction: row;
-}
-
-.titanes {
-	flex: 1;
-	padding: 30px;
-}
-
-.cazadores {
-	flex: 1;
-	padding: 30px;
-}
-
-.hechiceros {
-	flex: 1;
-	padding: 30px;
+	display: flex;
+	column-gap: 50px;
+	width: 100%;
 }
 
 .seccion-vanguardia h2 {
 	color: white;
 	font-family: 'Inter', sans-serif;
+	font-weight: 800;
 	text-align: center;
 }
 
-.titanes p {
-	height: 90px;
-	padding: 2%;
+.seccion-vanguardia p {
 	color: white;
+	width: 90%;
+	text-align: justify;
 	font-family: 'Inter', sans-serif;
-	transition: 500ms;
-	background-color: #642f2fe6;
 }
 
-.cazadores p {
-	padding: 2%;
-	height: 90px;
-	color: white;
-	font-family: 'Inter', sans-serif;
-	transition: 500ms;
-	background-color: #1e4263e6;
+.titanes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.hechiceros p {
-	padding: 2%;
-	height: 90px;
-	color: white;
-	font-family: 'Inter', sans-serif;
-	transition: 500ms;
-	background-color: #846c18e6;
+.cazadores {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hechiceros {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 @media (max-width: 900px) {
 	.seccion-vanguardia {
-		padding: 0%;
-	}
-}
-
-@media (max-width: 768px) {
-	.seccion-vanguardia {
-		flex-direction: column;
+	flex-direction: column;
 	}
 }
