@@ -121,9 +121,94 @@ nav:hover {
 	}
 }
 
+.seccion-vanguardia {
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+	background: black;
+	box-sizing: border-box;
+	flex-direction: row;
+}
+
+.titanes {
+	flex: 1;
+	padding: 30px;
+}
+
+.cazadores {
+	flex: 1;
+	padding: 30px;
+}
+
+.hechiceros {
+	flex: 1;
+	padding: 30px;
+}
+
+.seccion-vanguardia h2 {
+	color: white;
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+}
+
+.titanes p {
+	padding: 2%;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	transition: 500ms;
+	background-color: #642f2fe6;
+}
+
+.cazadores p {
+	padding: 2%;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	transition: 500ms;
+	background-color: #1e4263e6;
+}
+
+.hechiceros p {
+	padding: 2%;
+	color: white;
+	font-family: 'Inter', sans-serif;
+	transition: 500ms;
+	background-color: #846c18e6;
+}
+
+@media (max-width: 900px) {
+	.seccion-vanguardia {
+		padding: 0%;
+	}
+}
+
+@media (max-width: 768px) {
+	.seccion-vanguardia {
+		flex-direction: column;
+	}
+}
+
+.seccion-destinos {
+	display: flex;
+	flex-direction: column;
+	background: darkolivegreen;
+	align-items: center;
+	padding: 5%;
+	color: whitesmoke;
+}
+
+.seccion-destinos input {
+	padding-top: 5%;
+	padding-bottom: 55;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 .seccion-amenazas {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto;
 	width: 100%;
 	background-color: black;
 	justify-content: flex-start;
@@ -229,74 +314,27 @@ nav:hover {
 	}
 }
 
-.seccion-vanguardia {
-	width: 100%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	padding-left: 10%;
-	padding-right: 10%;
+.voluntariado {
+	align-items: center;
+	background-image: url(../assets/torre.jpg);
+	padding: 10px;
+	color: black;
 	display: flex;
-	background: black;
-	box-sizing: border-box;
 	flex-direction: row;
 }
 
-.titanes {
-	flex: 1;
-	padding: 30px;
+.voluntariado div {
+	width: 100%;
+	height: 200px;
+	background-image: url(../assets/m_tower_pano.jpg);
+	background-position: center bottom;
+	filter: blur(0px);
 }
 
-.cazadores {
-	flex: 1;
-	padding: 30px;
-}
-
-.hechiceros {
-	flex: 1;
-	padding: 30px;
-}
-
-.seccion-vanguardia h2 {
+.voluntariado p {
+	padding: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 200px;
+	float: right;
 	color: white;
-	font-family: 'Inter', sans-serif;
-	text-align: center;
-}
-
-.titanes p {
-	height: 90px;
-	padding: 2%;
-	color: white;
-	font-family: 'Inter', sans-serif;
-	transition: 500ms;
-	background-color: #642f2fe6;
-}
-
-.cazadores p {
-	padding: 2%;
-	height: 90px;
-	color: white;
-	font-family: 'Inter', sans-serif;
-	transition: 500ms;
-	background-color: #1e4263e6;
-}
-
-.hechiceros p {
-	padding: 2%;
-	height: 90px;
-	color: white;
-	font-family: 'Inter', sans-serif;
-	transition: 500ms;
-	background-color: #846c18e6;
-}
-
-@media (max-width: 900px) {
-	.seccion-vanguardia {
-		padding: 0%;
-	}
-}
-
-@media (max-width: 768px) {
-	.seccion-vanguardia {
-		flex-direction: column;
-	}
 }
