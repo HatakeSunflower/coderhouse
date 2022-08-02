@@ -128,7 +128,10 @@ nav:hover {
 	padding-left: 10%;
 	padding-right: 10%;
 	display: flex;
-	background: black;
+	background-image: url(../assets/supers_bg_desktop.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
 	box-sizing: border-box;
 	flex-direction: row;
 }
@@ -193,7 +196,10 @@ nav:hover {
 .seccion-destinos {
 	display: flex;
 	flex-direction: column;
-	background: darkolivegreen;
+	background-image: url(../ASSETS/bll.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
 	align-items: center;
 	padding: 5%;
 	color: whitesmoke;
@@ -206,100 +212,48 @@ nav:hover {
 	padding-right: 10%;
 }
 
-.seccion-amenazas {
-	display: grid;
-	grid-template-columns: auto auto;
-	width: 100%;
-	background-color: black;
-	justify-content: flex-start;
+.mz0 {
+	height: 60px;
+	background: #2c3e50;
 }
 
-.seccion-amenazas p {
-	transition: 500ms;
-	font-size: 20px;
-	margin: 10px;
-	color: aliceblue;
+.seccion-grimorio {
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+	background-image: url(../assets/hiveb.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	box-sizing: border-box;
+	flex-direction: row;
+}
+
+.mz1 {
+	flex: 1;
+	padding: 30px;
+}
+
+.mz2 {
+	flex: 1;
+	padding: 30px;
+}
+
+.mz3 {
+	flex: 1;
+	padding: 30px;
+}
+
+.seccion-grimorio h2 {
+	font-size: 30px;
+	text-align: center;
+	color: white;
 	text-shadow: 1px black;
 	background-color: rgba(0, 0, 0, 0.5);
-	opacity: 0;
-}
-
-.seccion-amenazas p:hover {
-	transition: 200ms;
-	opacity: 1;
-}
-
-.seccion-amenazas h2 {
-	color: aliceblue;
-	text-transform: uppercase;
-}
-
-.mza1 {
-	grid-column: 1/2;
-	width: auto;
-	min-width: 400;
-	height: 300px;
-	margin: 10px;
-	border: 1px solid white;
-	background-image: url(../assets/darkness.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-}
-
-.mza2 {
-	width: auto;
-	height: 300px;
-	margin: 10px;
-	border: 1px solid white;
-	background-image: url(../assets/hive.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-}
-
-.mza3 {
-	width: auto;
-	height: 300px;
-	margin: 10px;
-	border: 1px solid white;
-	background-image: url(../assets/cabal.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-}
-
-.mza4 {
-	width: auto;
-	height: 300px;
-	margin: 10px;
-	border: 1px solid white;
-	background-image: url(../assets/fallen.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-}
-
-.mza5 {
-	width: auto;
-	height: 300px;
-	margin: 10px;
-	border: 1px solid white;
-	background-image: url(../assets/forsaken.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-}
-
-.mza6 {
-	width: auto;
-	height: 300px;
-	margin: 10px;
-	border: 1px solid white;
-	background-image: url(../assets/taken.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
+	transition: 500ms;
 }
 
 @media (max-width: 900px) {
@@ -309,9 +263,93 @@ nav:hover {
 }
 
 @media (max-width: 768px) {
-	.seccion-amenazas {
-		grid-template-columns: auto;
+	.seccion-grimorio {
+		grid-template-columns: 100%;
 	}
+}
+
+.ev0 {
+	display: flex;
+	height: 60px;
+	background-image: url(../ASSETS/traveller.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.seccion-eventos {
+	display: grid;
+	grid-template-columns: 33.333% 33.33% 33.33%;
+	width: 100%;
+	background-image: url(../ASSETS/Haunted_Forest.webp);
+	background-position: center center;
+	background-size: cover;
+	justify-content: flex-start;
+}
+
+.ev1 {
+	grid-column: 1/3;
+	width: auto;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid white;
+	background-image: url(../assets/fest2.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.ev2 {
+	width: auto;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid white;
+	background-image: url(../assets/dawn.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.ev3 {
+	width: auto;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid white;
+	background-image: url(../assets/fest.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.ev4 {
+	grid-column: 2/4;
+	width: auto;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid white;
+	background-image: url(../assets/dawn.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.seccion-eventos h3{
+	font-size: x-large;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.seccion-eventos p{
+	text-align: center;
+	font-size: large;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: white;
+	text-shadow: 1px black;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: 500ms;
+	opacity: 0;
+}
+
+.seccion-eventos p:hover {
+	transition: 500ms;
+	opacity: 1;
 }
 
 .voluntariado {
@@ -326,8 +364,8 @@ nav:hover {
 	width: 100%;
 	height: 200px;
 	background-image: url(../assets/m_tower_pano.jpg);
+	background-position: center center;
 	background-size: cover;
-	filter: blur(0px);
 }
 
 .voluntariado p {
@@ -339,10 +377,25 @@ nav:hover {
 	color: white;
 }
 
-.seccion-aliados {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	width: 100%;
-	background-color: black;
-	justify-content: flex-start;
+footer {
+	display: flex;
+	background: black;
+	color: whitesmoke;
+	font-family: 'Inter', sans-serif;
+	align-items: center;
+}
+
+.footer-izq {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	margin: 10px;
+}
+
+.footer-der {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+	align-items: center;
+	column-gap: 10px;
 }
