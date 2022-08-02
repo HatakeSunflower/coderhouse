@@ -293,3 +293,28 @@ footer a:hover {
 	background: lightgrey;
 	padding: 30px;
 }
+
+
+
+
+
+
+
+margin-top: 50%;
+	margin-left: 30%;
+	margin-right: 30%;
+
+
+
+
+
+
+
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	width: 100%;
+	background-image: url(../ASSETS/Haunted_Forest.webp);
+	background-position: center center;
+	background-size: cover;
+	color: aliceblue;
+	justify-content: flex-start;
