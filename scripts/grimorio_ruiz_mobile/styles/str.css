@@ -257,14 +257,14 @@ nav:hover {
 }
 
 @media (max-width: 900px) {
-	.seccion-amenazas {
-		grid-template-columns: auto auto;
+	.seccion-grimorio {
+		padding: 0%;
 	}
 }
 
 @media (max-width: 768px) {
 	.seccion-grimorio {
-		grid-template-columns: 100%;
+		flex-direction: column;
 	}
 }
 
@@ -352,6 +352,24 @@ nav:hover {
 	opacity: 1;
 }
 
+@media (max-width: 768px) {
+	.seccion-eventos {
+		grid-template-columns: auto
+	}
+	.ev1 {
+		grid-column: 1/2;
+	}
+	.ev2 {
+		grid-column: 1/2;
+	}
+	.ev3 {
+		grid-column: 1/2;
+	}
+	.ev4 {
+		grid-column: 1/2;
+	}
+}
+
 .voluntariado {
 	background-image: url(../assets/torre.jpg);
 	padding: 10px;
@@ -372,7 +390,7 @@ nav:hover {
 	padding: 15px;
 	background-color: rgba(0, 0, 0, 0.5);
 	height: 200px;
-	width: 150px;
+	width: 240px;
 	float: right;
 	color: white;
 }
